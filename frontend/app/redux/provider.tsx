@@ -1,11 +1,9 @@
-import { configureStore } from '@reduxjs/toolkit'
-import characterSlice from './slices/characterSlice'
+'use client'
 
-export const store = configureStore({
-  reducer: {
-    characters: characterSlice ,
-  },
-})
+import { Provider } from 'react-redux';
+import { store } from './store';
 
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch
+export function ProviderRedux({ children }: { children: React.ReactNode }) {
+  return <Provider store={store}>{children}</Provider>;
+}
+export default ProviderRedux;
