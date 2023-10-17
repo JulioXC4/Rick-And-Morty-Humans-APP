@@ -22,10 +22,13 @@ export default function Landing({characters} : any) {
   return (
     <div>
       <Navbar />
-      <Box display="flex" justifyContent="center" my={2}>
+      <Box display="flex" justifyContent="center" my={4}>
         <PaginationComponent />
       </Box>
       <CardListComponent characters={charactersState} />
+      <Box display="flex" justifyContent="center" my={4}>
+        <PaginationComponent />
+      </Box>
     </div>
   );
 }

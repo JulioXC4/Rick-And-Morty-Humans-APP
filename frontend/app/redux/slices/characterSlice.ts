@@ -14,7 +14,7 @@ import { Character } from '@/app/models';
     allCharacters: [],
     characters: [],
     currentPage: 1,
-    perPage: 6, 
+    perPage: 12, 
     total: 0, 
   };
   
