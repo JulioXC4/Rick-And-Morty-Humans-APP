@@ -36,4 +36,22 @@ Dentro de la sección de API REST, se encuentra un único endpoint que se comuni
 ### **Server.js: Configuración Básica**
 El archivo `server.js` contiene la configuración básica de todo servidor, incluyendo la gestión de CORS, puertos y otras configuraciones esenciales para el correcto funcionamiento de la aplicación.
 
+## **Frontend: Estructura y Funcionalidad**
+
+En la construcción del frontend de este proyecto, se han empleado una serie de dependencias clave para crear una experiencia de usuario atractiva y funcional. Aquí se detallan los principales aspectos relacionados con el frontend:
+
+### **Estructura de Carpetas Modularizada**
+El frontend se ha desarrollado siguiendo una estructura de carpetas organizada y modularizada para garantizar la escalabilidad y la mantenibilidad a largo plazo del proyecto.
+
+### **Uso de TypeScript**
+Se ha aprovechado TypeScript en todo el proyecto para crear carpetas como `models`, `adapters`, y `servicios` donde se saca el máximo provecho de las ventajas de TypeScript. Además, se han seguido las convenciones generales de Next.js en la última versión.
+
+### **Estructura de Componentes**
+Dentro de la carpeta `componentes`, se han creado componentes generales como `Card`, `CardsList`, `Navbar`, y `Pagination`. Otros componentes se han organizado en una carpeta llamada `landing` para facilitar la estructuración del proyecto. Además, se han incorporado animaciones utilizando Framer Motion para mejorar la experiencia del usuario.
+
+### **Gestión de Estado con Redux Toolkit**
+Una de las partes más importantes del frontend ha sido la implementación de Redux Toolkit para la gestión de estados globales. Esto permite acceder a la información en cualquier parte de la aplicación y optimiza el flujo de datos con el backend. Además, se han creado reducers para permitir el filtrado de datos en la sección de paginación.
+
+En resumen, el frontend se ha diseñado teniendo en cuenta la organización, el rendimiento y la experiencia del usuario. Se han utilizado tecnologías y herramientas modernas para crear una aplicación escalable y altamente funcional.
+
 
