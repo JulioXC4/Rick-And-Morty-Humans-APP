@@ -22,7 +22,7 @@ export default function CardComponent({ characterProps } : any) {
   const statusColor = getStatusColor(characterProps.status);
 
   const cardStyle = {
-    border: '6px solid #C0DF40', // Cambia el color y el grosor del borde aquí
+    border: '6px solid #C0DF40',
     maxWidth: 345,
   };
 

@@ -12,8 +12,8 @@ const buttonVariants = {
 };
 
 const buttonStyle = {
-  backgroundColor: '#C0DF40', // Reemplaza este valor con tu color hexadecimal
-  color: '#40B5CB', // Cambia el color del texto según tus preferencias
+  backgroundColor: '#C0DF40', 
+  color: '#40B5CB', 
 };
 
 export default function Home() {

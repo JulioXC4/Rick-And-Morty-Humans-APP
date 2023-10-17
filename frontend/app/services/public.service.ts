@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {Character, Characters, Origin} from '@/app/models'
+import {Characters} from '@/app/models'
 
 const {BACKEND_URI} = process.env
 

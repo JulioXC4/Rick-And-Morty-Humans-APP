@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
-import { Character, Characters } from '@/app/models';
+import { Character } from '@/app/models';
 
   interface CharactersState {
     allCharacters: Character[];

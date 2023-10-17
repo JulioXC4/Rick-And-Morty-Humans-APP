@@ -14,7 +14,7 @@ function NavBar() {
             <img
               src="/rym_logo.png"
               alt="Logo"
-              style={{ display: 'block', maxHeight: '65px', margin: '8px' }} // Ajusta el tamaño y el margen según tus necesidades
+              style={{ display: 'block', maxHeight: '65px', margin: '8px' }}
             />
           </Link>
         </Toolbar>
