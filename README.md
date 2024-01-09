@@ -1,6 +1,6 @@
 # Rick-And-Morty-Humans-APP
 
-Este proyecto es una aplicación web que se enfoca en mostrar información sobre los personajes humanos de la famosa serie animada "Rick and Morty". La aplicación combina tecnologías frontend y backend para proporcionar una experiencia completa. A continuación, se detallan los objetivos del proyecto:
+Este proyecto, que surgió como una prueba enviada por el equipo de [Ciudadela](https://www.ciudadela.eu/), se centra en presentar información sobre los personajes humanos de la famosa serie animada "Rick and Morty". A pesar del desafío de contar con solo un día para su desarrollo, la aplicación integra tecnologías tanto frontend como backend para ofrecer una experiencia completa. A continuación, se detallan los objetivos del proyecto:
 
 ## Objetivos Principales:
 - **Frontend con Next.js y Material UI:** Se ha desarrollado un frontend utilizando Next.js y Material UI para proporcionar una interfaz de usuario intuitiva y agradable.
